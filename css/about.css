@@ -23,10 +23,14 @@
     }
 
 body {
-    color:white;
+    color:black;
 }
 
 h3 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -43,23 +47,41 @@ h3 {
     
 }
 
-.container-fluid h1 {
-    background-color:white;
-    color: black;
-    /* adding a box to highlight about me */
+/* for the parallax img!!! ari made this. */
+.parallax {
+    /* The image used */
+    background-image: url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
+
+    
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .parallax-text {
+    position: absolute; /* Fix the text inside the parallax */
+    top: 45%; /* Adjust positioning */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* Text color */
+    text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 
-.mission h2{
-    background-color: white;
-    color: black;
+/* making grid for offer and images!! */
+
+ul {
+    list-style-type: none;
 }
 
-.corevalues h2 {
-    background-color:white;
-    color: black;
-}
-
-h2 {
-    background-color:white;
-    color: black;
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
 }
