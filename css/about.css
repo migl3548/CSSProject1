@@ -1,0 +1,41 @@
+body {
+    color:white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container-fluid img {
+    float: left;
+    max-width: 300px;
+    padding-right: 10px;
+    /* making image go to left and have text wrap around */
+}
+
+#aboutme {
+    text-align: left;
+    /* making text wrap around */
+    
+}
+
+.container-fluid h1 {
+    background-color:white;
+    color: black;
+    /* adding a box to highlight about me */
+}
+
+.mission h2{
+    background-color: white;
+    color: black;
+}
+
+.corevalues h2 {
+    background-color:white;
+    color: black;
+}
+
+h2 {
+    background-color:white;
+    color: black;
+}
