@@ -1,0 +1,65 @@
+/* Colors! */
+
+:root{
+    /* We don't have to use all these,
+    just the ones we like. */
+        --darkSlateGrey:#335C67;
+        --vanilla:#FFF3B0;
+        --hunyadiYellow:#E09F3E;
+        --auburn:#9E2A2B;
+        --chocolateCosmos: #540b0E;
+        --brown: #813405;
+        --bole: #774936;
+        --blackBean: #3C0000;
+    
+        --prettyBlue:#264D59;
+        --prettyLightBlue: #43978D;
+        --yellow: #F9E07F;
+        --lightOrange: #F9AD6A;
+        --orange: #D46C4e?
+    
+    /* To use color, place color with:
+    var(--prettyBlue); */
+    }
+
+body {
+    color:white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container-fluid img {
+    float: left;
+    max-width: 300px;
+    padding-right: 10px;
+    /* making image go to left and have text wrap around */
+}
+
+#aboutme {
+    text-align: left;
+    /* making text wrap around */
+    
+}
+
+.container-fluid h1 {
+    background-color:white;
+    color: black;
+    /* adding a box to highlight about me */
+}
+
+.mission h2{
+    background-color: white;
+    color: black;
+}
+
+.corevalues h2 {
+    background-color:white;
+    color: black;
+}
+
+h2 {
+    background-color:white;
+    color: black;
+}
