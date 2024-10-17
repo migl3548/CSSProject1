@@ -42,14 +42,18 @@ a {
 body {background-color: #000000;}
 
 
-ul {
-    list-style: none;
-    display: flex;
-    background-color: black;
-    margin: 0;
-    padding: 10px 0px;
-    justify-content: center; 
-    font-family: "HelveticaNeue-CondensedBold";
+.parallax {
+    /* The image used */
+    background-image: url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
+
     
-     
-}
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
