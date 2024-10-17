@@ -56,4 +56,15 @@ body {background-color: #000000;}
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
   }
+
+  .parallax-text {
+    position: absolute; /* Fix the text inside the parallax */
+    top: 60%; /* Adjust positioning */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* Text color */
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
