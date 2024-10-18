@@ -85,7 +85,11 @@ body {background-color: #3c0000;}
 }
 
 .eventcard {
+<<<<<<< Updated upstream
     background-color: #fff3b0; /* Light background color for event card */
+=======
+    background-color: #f8f9fa; /* Light background color for event card */
+>>>>>>> Stashed changes
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
     padding: 20px;
