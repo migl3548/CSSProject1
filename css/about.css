@@ -99,3 +99,7 @@ ul {
     grid-template-columns: auto auto;
 }
 
+.grid img {
+    max-width: 150px;
+}
+
