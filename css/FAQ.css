@@ -43,27 +43,27 @@ h3 {
     /* making text wrap around */
     
 }
-
+/* 
 .container-fluid h1 {
     background-color:white;
     color: black;
-    /* adding a box to highlight about me */
 }
+    /* adding a box to highlight about me */
 
-.mission h2{
+
+/* .mission h2{
     background-color: white;
     color: black;
 }
 
 .corevalues h2 {
-    background-color:white;
     color: black;
-}
+} 
 
 h2 {
     background-color:white;
-    color: black;
-}
+    color: white;
+} */
 
 /* parallax scorlling */
 
