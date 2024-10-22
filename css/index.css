@@ -22,10 +22,17 @@ just the ones we like. */
 var(--prettyBlue); */
 }
 
-h1 {
-    
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;      
+}
+
+h1 { 
+    font-family: "Playfair Display", serif;
     text-align: center;
-    font-family: Helvetica, sans-serif;
     font-size: 80px;
     color: var(--vanilla);
 }
@@ -33,9 +40,8 @@ h1 {
 
 
 h2 {
-
+    font-family: "Playfair Display", serif;
     text-align: center;
-    font-family: Helvetica, sans-serif;
     color: white;
 }
 
