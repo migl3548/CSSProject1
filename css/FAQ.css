@@ -27,8 +27,13 @@ body {
     color:white;
 }
 
+
+
+h2 {
+    text-align: left;
+}
 h3 {
-    text-align: center;
+    text-align: left;
 }
 
 .container-fluid img {
