@@ -23,7 +23,7 @@
     }
 
 body {
-    color:black;
+    color: black;
 }
 
 h3 {
@@ -38,7 +38,7 @@ h2 {
 
 .container-fluid img {
     float: left;
-    max-width: 300px;
+    max-width: 450px;
     padding-right: 10px;
     /* making image go to left and have text wrap around */
 }
@@ -47,6 +47,10 @@ h2 {
     text-align: left;
     /* making text wrap around */
     
+}
+
+.parallax_grid {
+    display: grid;
 }
 
 /* for the parallax img!!! ari made this. */
@@ -84,7 +88,7 @@ h2 {
     padding-right: 10px;
 }
 
-/* making grid for offer and images!! */
+/* making grid for offer and images!! text will be on the left, images will be on the right */
 
 ul {
     list-style-type: none;
@@ -101,5 +105,15 @@ ul {
 
 .grid img {
     max-width: 150px;
+}
+
+/* make container fluid a flexbox or grid so that it's responsive? */
+.container-fluid {
+    display: grid;
+}
+
+.first_grid {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 

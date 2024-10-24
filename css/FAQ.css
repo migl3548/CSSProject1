@@ -27,8 +27,15 @@ body {
     color:white;
 }
 
+
+h1{
+    background-color: rgba(0,0,0,.6);
+}
+h2 {
+    text-align: left;
+}
 h3 {
-    text-align: center;
+    text-align: left;
 }
 
 .container-fluid img {
@@ -37,6 +44,10 @@ h3 {
     padding-right: 10px;
     /* making image go to left and have text wrap around */
 }
+/* 
+.IntroComments{
+    text-align: left;
+} */
 
 #aboutme {
     text-align: left;
@@ -69,7 +80,7 @@ h2 {
 
 .parallax {
     /* The image used */
-    background-image: url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
+    background-image: url(../images/peter-civic-center-1920x600-1-1024x320.jpg);
 
     
   
@@ -92,4 +103,17 @@ h2 {
     color: white; /* Text color */
     text-align: center;
     font-family: Helvetica, sans-serif;
+}
+
+.BottomImage{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.right img{
+    display: block;
+    max-width: 570px;
+    margin-left: auto;
+    margin-right:auto;
+    
 }
