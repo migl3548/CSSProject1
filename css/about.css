@@ -22,130 +22,227 @@
     var(--prettyBlue); */
     }
 
-body {
-    color: black;
-}
-
-h3 {
-    text-align: center;
-    color: var(--lightOrange);   
-}
-
-h2 {
-    text-align: center;
-    color: var(--hunyadiYellow);
-}
-
-.container-fluid img {
-    float: left;
-    max-width: 450px;
-    padding-right: 10px;
-    /* making image go to left and have text wrap around */
-}
-
-#aboutme {
-    text-align: left;
-    /* making text wrap around */
+@media (min-width: 1500px) {
+    body {
+        color: black;
+    }
+    
+    h3 {
+        text-align: center;
+        color: var(--lightOrange);   
+    }
+    
+    h2 {
+        text-align: center;
+        color: var(--hunyadiYellow);
+    }
+    
+    img {
+        float: left;
+        max-width: 400px;
+        padding-right: 10px;
+        /* making image go to left and have text wrap around */
+    }
+    
+    #aboutme {
+        text-align: left;
+        /* making text wrap around */
+        
+    }
+    
+    .parallax_grid {
+        display: grid;
+    }
+    
+    /* for the parallax img!!! ari made this. */
+    .parallax {
+        /* The image used */
+        background-image: url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
+    
+        
+      
+        /* Set a specific height */
+        min-height: 300px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+      }
+    
+      .parallax-text {
+        position: absolute; /* Fix the text inside the parallax */
+        top: 45%; /* Adjust positioning */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the text */
+        color: white; /* Text color */
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+    }
+    
+    /* adding an opaque background around the header so that it's more visible */
+    .forbettervisibility {
+        background-color: rgb(0, 0, 0, .7);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* making grid for offer and images!! text will be on the left, images will be on the right */
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .offer h2, .offer p{
+        text-align: justify;
+    }
+    
+    
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .grid img {
+        max-width: 150px;
+    }
+    
+    /* make container fluid a flexbox or grid so that it's responsive? */
+    /* .container-fluid {
+        display: grid;
+    }
+    
+    .first_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    } */
+    
+    /* navigation bar css  */
+    
+    
+    .navbar-color {
+        background-color: var(--yellow);
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: var(--chocolateCosmos);
+    }
+    
+    .navbar-brand-color {
+        display:flex;
+        justify-content: left;
+        padding-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: var(--blackBean);
+    }
+    
+    .navbar-toggler {
+        background-color: var(--blackBean);
+    }
+    
+    .nav-link-reference {
+        display: flex;
+        color: var(--blackBean);
+        justify-content: center;
+        padding: 5px;
+    }
     
 }
 
-.parallax_grid {
-    display: grid;
-}
-
-/* for the parallax img!!! ari made this. */
-.parallax {
-    /* The image used */
-    background-image: url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
-
-    
-  
-    /* Set a specific height */
-    min-height: 300px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-  }
-
-  .parallax-text {
-    position: absolute; /* Fix the text inside the parallax */
-    top: 45%; /* Adjust positioning */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the text */
-    color: white; /* Text color */
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-}
-
-/* adding an opaque background around the header so that it's more visible */
-.forbettervisibility {
-    background-color: rgb(0, 0, 0, .7);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/* making grid for offer and images!! text will be on the left, images will be on the right */
-
-ul {
-    list-style-type: none;
-}
-
-.offer h2, .offer p{
-    text-align: justify;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.grid img {
-    max-width: 150px;
-}
-
-/* make container fluid a flexbox or grid so that it's responsive? */
-.container-fluid {
-    display: grid;
-}
-
-.first_grid {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-/* navigation bar css */
-
-
-.navbar-color {
-    background-color: var(--yellow);
-    border-style: solid;
-    border-width: 3px;
-    
-    border-color: var(--chocolateCosmos);
-}
-
-.navbar-brand-color {
-    display:flex;
-    justify-content: left;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: var(--blackBean);
-}
-
-.navbar-toggler {
-    background-color: var(--blackBean);
-}
-
-.nav-link-reference {
-    display: flex;
-    color: var(--blackBean);
-    justify-content: center;
-    padding: 5px;
-}
 
 /* media quiry to make page responsive */
+
+@media (max-width: 1500px){
+    body {
+        color: black;
+    }
+    
+    h3 {
+        text-align: left;
+        color: var(--lightOrange);   
+    }
+    
+    h2 {
+        text-align: left;
+        color: var(--hunyadiYellow);
+    }
+    
+    img {
+        max-width: 400px;
+        padding-right: 10px;
+        /* making image go to left and have text wrap around */
+    }
+    
+    .container-fluid p {
+        text-align: left;
+    }
+    
+    #aboutme {
+        text-align: left;
+        /* making text wrap around */
+        
+    }
+    
+    .parallax_grid {
+        display: grid;
+    }
+    
+    /* for the parallax img!!! ari made this. */
+    .parallax {
+        /* The image used */
+        background-image: url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
+    
+        
+      
+        /* Set a specific height */
+        min-height: 300px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+      }
+    
+      .parallax-text {
+        position: absolute; /* Fix the text inside the parallax */
+        top: 45%; /* Adjust positioning */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the text */
+        color: white; /* Text color */
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+    }
+    
+    /* adding an opaque background around the header so that it's more visible */
+    .forbettervisibility {
+        background-color: rgb(0, 0, 0, .7);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* making grid for offer and images!! text will be on the left, images will be on the right */
+    
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .offer h2, .offer p{
+        text-align: justify;
+    }
+    
+    
+    .grid {
+        display: block;
+    }
+    
+    .grid img {
+        max-width: 150px;
+    }
+}
