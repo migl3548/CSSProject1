@@ -89,3 +89,9 @@ body {background-color: #000000;}
     text-align:center;
     color:var(--hunyadiYellow);
 }
+
+@media (max-width: 400px) {
+    body{
+        text-align: justify;
+    }
+}
