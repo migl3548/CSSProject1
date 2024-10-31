@@ -2,9 +2,10 @@
 	h1 {
     
         text-align: center;
-        font-family: Helvetica, sans-serif;
+        font-family: "Playfair Display", serif;
         font-size: 80px;
-        color: white;
+        color: var(--hunyadiYellow);
+        background-color: rbga(0,0,0,.6);
     }
     
     
@@ -47,7 +48,7 @@
     }
     
     /*373A40*/
-    body {background-color: #3c0000;}
+    body {background-color: black;}
     
     
     .parallax {
@@ -123,9 +124,9 @@
     h1 {
     
         text-align: center;
-        font-family: Helvetica, sans-serif;
+        font-family: "Playfair Display", serif;        
         font-size: 80px;
-        color: white;
+        color: var(--hunyadiYellow);
     }
     
     

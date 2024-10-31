@@ -3,7 +3,8 @@ h1 {
     text-align: center;
     font-family: "Playfair Display", serif;
     font-size: 80px;
-    color: white;
+    color: var(--vanilla);
+    background-color: rgba(0,0,0,.6);
 }
 
 
