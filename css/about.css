@@ -26,6 +26,10 @@
     body {
         color: black;
     }
+
+    h1 {
+        font-family: "Playfair Display", serif;
+    }
     
     h3 {
         text-align: center;
@@ -160,14 +164,20 @@
         color: black;
     }
     
+    p {
+        padding: 10px;
+        text-align: left;
+    }
     h3 {
         text-align: left;
         color: var(--lightOrange);   
+        padding: 10px;
     }
     
     h2 {
         text-align: left;
         color: var(--hunyadiYellow);
+        padding: 10px;
     }
     
     img {
