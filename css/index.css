@@ -127,3 +127,18 @@ body {background-color: black;}
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
+
+.BottomIMG{
+    /* Image used */
+    background-image: url(../images/about/Halfnotes-945x530-2.jpg);
+
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
