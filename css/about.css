@@ -22,7 +22,9 @@
     var(--prettyBlue); */
     }
 
-@media (min-width: 1500px) {
+
+/* media query for bigger screens */
+@media screen and (min-width: 1500px) {
     body {
         color: black;
     }
@@ -127,7 +129,7 @@
     /* navigation bar css  */
     
     
-    .navbar-color {
+    /* .navbar-color {
         background-color: var(--yellow);
         border-style: solid;
         border-width: 3px;
@@ -153,7 +155,7 @@
         color: var(--blackBean);
         justify-content: center;
         padding: 5px;
-    }
+    } */
     
 }
 
@@ -161,7 +163,7 @@
 /* media quiry to make page responsive */
 
 /* for screens with width less than 1500px */
-@media (max-width: 1500px){
+@media screen and (max-width: 1500px){
     body {
         color: black;
     }
@@ -180,13 +182,14 @@
     
     h2 {
         text-align: left;
-        color: var(--hunyadiYellow);
+        color: var(--auburn);
         padding: 10px;
     }
     
     img {
-        max-width: 400px;
+        max-width: 350px;
         padding-right: 10px;
+        padding-left: 10px;
         /* making image go to left and have text wrap around */
     }
     
