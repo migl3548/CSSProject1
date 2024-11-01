@@ -73,9 +73,25 @@
         color: rgb(70, 157, 227);
     }
     
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
+
+
     /*373A40*/
     body {background-color: black;}
     
+    /* adding a transparent dark background around the header on the parallax image so that it's more visible */
+    .forbettervisibility {
+        background-color: rgb(0, 0, 0, .7);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     
     .parallax {
         /* The image used */
@@ -197,9 +213,24 @@
         color: rgb(70, 157, 227);
     }
     
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
+
     /*373A40*/
     body {background-color: black;}
     
+    /* adding a transparent dark background around the header on the parallax image so that it's more visible */
+    .forbettervisibility {
+        background-color: rgb(0, 0, 0, .7);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     
     .parallax {
         /* The image used */
@@ -216,6 +247,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: black;
+
       }
     
       .parallax-text {

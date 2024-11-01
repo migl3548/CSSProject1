@@ -81,6 +81,16 @@ var(--prettyBlue); */
     
     /*373A40*/
     body {background-color: black;}
+
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
+    
     
     /* .navbar-color {
         background-color: var(--yellow);
@@ -133,6 +143,7 @@ var(--prettyBlue); */
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: white;
       }
     
       .parallax-text {
@@ -158,6 +169,7 @@ var(--prettyBlue); */
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: white;
     }
 }
 
@@ -221,14 +233,15 @@ var(--prettyBlue); */
     /*373A40*/
     body {background-color: black;}
     
-    /* .navbar-color {
-        background-color: var(--yellow);
+    .navbar-color {
+        background-color: black;
         border-style: solid;
         border-width: 3px;
         
-        border-color: var(--chocolateCosmos);
+        border-color: black;
     }
     
+    /*
     .navbar-brand-color {
         display:flex;
         justify-content: left;
@@ -272,6 +285,7 @@ var(--prettyBlue); */
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: white;
       }
     
       .parallax-text {
@@ -297,5 +311,6 @@ var(--prettyBlue); */
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: white;
     }
 }

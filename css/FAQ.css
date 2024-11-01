@@ -60,7 +60,15 @@
 
     }
     
-    
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
+
      /* adding a transparent dark background around the header on the parallax image so that it's more visible */
      .forbettervisibility {
         background-color: rgb(0, 0, 0, .7);
@@ -85,6 +93,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: black;
+
       }
     
       .parallax-text {
@@ -152,6 +162,15 @@
         padding-right: 10px;
     }
 
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
+
     /* parallax scorlling */
     
     .parallax {
@@ -169,6 +188,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: black;
+
       }
     
       .parallax-text {

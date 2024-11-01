@@ -83,6 +83,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: black;
       }
     
       .parallax-text {
@@ -124,7 +125,14 @@
         max-width: 250px;
     }
     
-
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
     
     /* navigation bar css  */
     
@@ -164,6 +172,15 @@
 
 /* for screens with width less than 1500px */
 @media screen and (max-width: 1500px){
+    /* to make the navigation bar black */
+    .navbar-color {
+        background-color: black;
+        border-style: solid;
+        border-width: 3px;
+        
+        border-color: black;
+    }
+
     body {
         color: black;
     }
@@ -223,6 +240,8 @@
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
+        background-color: black;
+
       }
     
       .parallax-text {
