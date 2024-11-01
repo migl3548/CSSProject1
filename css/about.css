@@ -3,20 +3,12 @@
 :root{
     /* We don't have to use all these,
     just the ones we like. */
-        --darkSlateGrey:#335C67;
         --vanilla:#FFF3B0;
         --hunyadiYellow:#E09F3E;
         --auburn:#9E2A2B;
-        --chocolateCosmos: #540b0E;
-        --brown: #813405;
-        --bole: #774936;
-        --blackBean: #3C0000;
-    
-        --prettyBlue:#264D59;
+        
         --prettyLightBlue: #43978D;
-        --yellow: #F9E07F;
-        --lightOrange: #F9AD6A;
-        --orange: #D46C4e?
+
     
     /* To use color, place color with:
     var(--prettyBlue); */
@@ -25,6 +17,13 @@
 
 /* media query for bigger screens */
 @media screen and (min-width: 1500px) {
+
+    /* styling for the navigation bar */
+    nav a{
+        color:white;
+        
+    }
+
     body {
         color: black;
     }
@@ -36,7 +35,7 @@
     /* text will center align on bigger screens */
     h3 {
         text-align: center;
-        color: var(--lightOrange);   
+        color: var(--vanilla);   
     }
     
     h2 {
@@ -128,10 +127,6 @@
     /* to make the navigation bar black */
     .navbar-color {
         background-color: black;
-        border-style: solid;
-        border-width: 3px;
-        
-        border-color: black;
     }
     
     /* navigation bar css  */
@@ -172,13 +167,13 @@
 
 /* for screens with width less than 1500px */
 @media screen and (max-width: 1500px){
+    /* nav bar styling */
+    nav a{
+        color:white;
+    }
     /* to make the navigation bar black */
     .navbar-color {
         background-color: black;
-        border-style: solid;
-        border-width: 3px;
-        
-        border-color: black;
     }
 
     body {
@@ -260,9 +255,7 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    
-    /* making grid for offer and images!! text will be on the left, images will be on the right */
-    
+        
     ul {
         list-style-type: none;
         display: grid;
@@ -273,7 +266,7 @@
         text-align: justify;
     }
     
-    
+    /* no grid on smaller screens */
     .grid {
         display: block;
     }

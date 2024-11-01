@@ -3,20 +3,11 @@
 :root{
     /* We don't have to use all these,
     just the ones we like. */
-        --darkSlateGrey:#335C67;
-        --vanilla:#FFF3B0;
-        --hunyadiYellow:#E09F3E;
-        --auburn:#9E2A2B;
-        --chocolateCosmos: #540b0E;
-        --brown: #813405;
-        --bole: #774936;
-        --blackBean: #3C0000;
+    --vanilla:#FFF3B0;
+    --hunyadiYellow:#E09F3E;
+    --auburn:#9E2A2B;
     
-        --prettyBlue:#264D59;
-        --prettyLightBlue: #43978D;
-        --yellow: #F9E07F;
-        --lightOrange: #F9AD6A;
-        --orange: #D46C4e?
+    --prettyLightBlue: #43978D;
     
     /* To use color, place color with:
     var(--prettyBlue); */
@@ -54,19 +45,20 @@
 
     }
     h4 {
-        color:var(--yellow);
+        color: var(--vanilla);
         text-align: left;
         font-family: "Playfair Display", serif;
 
+    }
+
+    /* navbar styling */
+    nav a{
+        color:white;
     }
     
     /* to make the navigation bar black */
     .navbar-color {
         background-color: black;
-        border-style: solid;
-        border-width: 3px;
-        
-        border-color: black;
     }
 
      /* adding a transparent dark background around the header on the parallax image so that it's more visible */
@@ -162,13 +154,15 @@
         padding-right: 10px;
     }
 
+    /* navbar styling */
+    nav a{
+        color:white;
+    }
+
     /* to make the navigation bar black */
     .navbar-color {
         background-color: black;
-        border-style: solid;
-        border-width: 3px;
-        
-        border-color: black;
+
     }
 
     /* parallax scorlling */
