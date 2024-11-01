@@ -31,6 +31,7 @@
         font-family: "Playfair Display", serif;
     }
     
+    /* text will center align on bigger screens */
     h3 {
         text-align: center;
         color: var(--lightOrange);   
@@ -38,7 +39,13 @@
     
     h2 {
         text-align: center;
-        color: var(--hunyadiYellow);
+        color: var(--auburn);
+    }
+
+    /* making a grid for class about me */
+    .aboutme {
+        display: grid;
+        grid-template-columns: auto auto;
     }
     
     img {
@@ -86,7 +93,7 @@
         font-family: Helvetica, sans-serif;
     }
     
-    /* adding an opaque background around the header so that it's more visible */
+    /* adding a transparent dark background around the header on the parallax image so that it's more visible */
     .forbettervisibility {
         background-color: rgb(0, 0, 0, .7);
         padding-left: 10px;
@@ -97,31 +104,25 @@
     
     ul {
         list-style-type: none;
+        display: grid;
+        grid-template-columns: auto auto;
     }
     
     .offer h2, .offer p{
         text-align: justify;
     }
     
-    
+    /* for the grid displayed at the bottom */
     .grid {
         display: grid;
         grid-template-columns: auto auto;
     }
     
     .grid img {
-        max-width: 150px;
+        max-width: 250px;
     }
     
-    /* make container fluid a flexbox or grid so that it's responsive? */
-    /* .container-fluid {
-        display: grid;
-    }
-    
-    .first_grid {
-        display: grid;
-        grid-template-columns: auto auto;
-    } */
+
     
     /* navigation bar css  */
     
@@ -159,11 +160,14 @@
 
 /* media quiry to make page responsive */
 
+/* for screens with width less than 1500px */
 @media (max-width: 1500px){
     body {
         color: black;
     }
     
+
+    /* text will be left align for smaller screens */
     p {
         padding: 10px;
         text-align: left;
