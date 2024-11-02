@@ -18,12 +18,13 @@ var(--prettyBlue); */
 
 @media screen and (min-width: 1500px)
 {
+    /* main styling */
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
         font-style: normal;      
     }
-    
+    /* header styling */
     h1 { 
         font-family: "Playfair Display", serif;
         text-align: center;
@@ -46,7 +47,7 @@ var(--prettyBlue); */
     
     }
     
-    
+    /* paragraph styling, made font size bigger */
     p {
         font-family: Helvetica, sans-serif;
         margin-left:auto;
@@ -63,7 +64,7 @@ var(--prettyBlue); */
         color: rgb(70, 157, 227);
     }
     
-    /*373A40*/
+    /*making background color black*/
     body {background-color: black;}
 
     /* navbar styling */
@@ -140,6 +141,8 @@ var(--prettyBlue); */
         text-align: center;
         font-family: Helvetica, sans-serif;
     }
+
+    /* parallax image at the bottom of the screen */
     
     .BottomIMG{
         /* Image used */
@@ -159,9 +162,10 @@ var(--prettyBlue); */
 }
 
 /* media query for smaller screens */
-/* text will be aligned to the left */
+/* text will be aligned to the left on smaller screens! */
 @media screen and (max-width: 1500px)
 {
+    /* body styling */
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
@@ -192,6 +196,7 @@ var(--prettyBlue); */
     
     }
     
+    /* paragraph styling */
     p {
         font-family: Helvetica, sans-serif;
         margin-left:auto;

@@ -21,13 +21,16 @@
     /* styling for the navigation bar */
     nav a{
         color:white;
+        /* making navbar items/links white */
         
     }
 
+    /* main styling */
     body {
         color: black;
     }
 
+    /* heading styling */
     h1 {
         font-family: "Playfair Display", serif;
     }
@@ -46,7 +49,8 @@
     /* making a grid for class about me */
     .aboutme {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto; 
+        /* two columns */
     }
     
     img {
@@ -176,13 +180,16 @@
         background-color: black;
     }
 
+    /* main styling */
     body {
         color: black;
     }
     
 
     /* text will be left align for smaller screens */
+    /* there will also be padding of 10px */
     p {
+        /* giving paragraphs padding 10px on smaller screens */
         padding: 10px;
         text-align: left;
     }
@@ -198,11 +205,11 @@
         padding: 10px;
     }
     
+    /* image was made smaller for smaller screens */
     img {
         max-width: 350px;
         padding-right: 10px;
         padding-left: 10px;
-        /* making image go to left and have text wrap around */
     }
     
     .container-fluid p {

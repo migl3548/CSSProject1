@@ -16,6 +16,7 @@
 /* media query for bigger screens */
 @media screen and (min-width: 1500px)
 {
+    /* main styling */
     body {
         background-color: #000000;
         color:white;
@@ -25,7 +26,7 @@
         text-align: left;
     }
     
-    
+    /* header styling */
     h1{
         font-size:80px;
         font-family: "Playfair Display", serif;
@@ -99,6 +100,7 @@
         font-family: Helvetica, sans-serif;
     }
     
+    /* for displaying a 2 column grid at the bottom of the page */
     .BottomImage{
         display: grid;
         grid-template-columns: auto auto;
@@ -117,6 +119,7 @@
 /* bottom part is no longer a grid. At the event and the image will be displayed above one another */
 @media screen and (max-width: 1500px)
 {
+    /* main body styling */
     body {
         background-color: #000000;
         color:white;
@@ -127,22 +130,23 @@
         text-align: left;
     }
     
+    /*header styling. On smaller screens the color will change :)*/
     h1{
         font-size:80px;
         font-family: "Playfair Display", serif;
     }
     h2 {
-        color:var(--auburn);
+        color:var(--yellow);
         text-align:left;
         font-family: "Playfair Display", serif;
     }
     h3 {
-        color:var(--prettyLightBlue);
+        color:var(--auburn);
         text-align: left;
         font-family: "Playfair Display", serif;
     }
     h4 {
-        color:var(--yellow);
+        color:var(--prettyLightBlue);
         text-align: left;
         font-family: "Playfair Display", serif;
     }
@@ -196,6 +200,7 @@
         font-family: Helvetica, sans-serif;
     }
     
+    /* got rid of the grid display for the bottom image */
     .BottomImage{
         display: block;
     }

@@ -60,6 +60,8 @@
         color: white;
     }
     
+
+    /* paragraph styling, helvetica font, auto margins, center aligned */
     p {
         font-family: Helvetica, sans-serif;
         margin-left:auto;
@@ -86,7 +88,7 @@
     }
 
 
-    /*373A40*/
+    /*making background black*/
     body {background-color: #000000;}
 
      /* adding a transparent dark background around the header on the parallax image so that it's more visible */
@@ -126,7 +128,7 @@
         font-family: Helvetica, sans-serif;
     }
     
-    /* parallax image that shows up when you scroll down */
+    /* parallax image that shows up when you scroll down, for the very bottom image*/
     .TalkbackIMG{
         /* Image used */
         background-image: url(/images/about/Talkback-945x530-1.jpg);
@@ -156,6 +158,8 @@
 /* text will be aligned to the left instead of center */
 /* gave all text a padding of 10px so that it's not all the to the left. */
 @media screen and (max-width: 1500px) {
+
+    /* header styling */
     h1 {
     
         text-align: left;
