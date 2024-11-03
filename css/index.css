@@ -149,13 +149,13 @@ var(--prettyBlue); */
         background-image: url(../images/carolyn-kunicki-river-1920x600-1-1024x320.jpg);
     
         /* Set a specific height */
-        min-height: 300px; 
-      
+        min-height: 500px; 
+        
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
-        background-position: bottom;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
         
     }
