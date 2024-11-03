@@ -131,7 +131,7 @@
     /* parallax image that shows up when you scroll down, for the very bottom image*/
     .TalkbackIMG{
         /* Image used */
-        background-image: url(/images/about/Talkback-945x530-1.jpg);
+        background-image: url(../images/about/Talkback-945x530-1.jpg);
     
         /* Set a specific height */
         min-height: 300px; 
